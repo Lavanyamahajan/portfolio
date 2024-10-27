@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif; /* Modern font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea; /* Slightly lighter background for contrast */
+    color: #444; /* Darker text for better readability */
+}
+
+/* Header Styles */
+header {
+    background: #1ba8ad; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #ffe0b2; /* Light color on hover */
+}
+
+/* Main Section Styles */
+main {
+    max-width: 900px; /* Wider content area */
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+}
+
+/* Section Headings */
+h2 {
+    color: #d030c0; /* Vibrant section header color */
+    border-bottom: 2px solid #c41eb3; /* Bottom border */
+    padding-bottom: 10px;
+    margin-bottom: 15px; /* Space below heading */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 25px; /* More space between sections */
+}
+
+ul {
+    padding-left: 25px; /* Indentation for lists */
+}
+
+/* Image Styles */
+img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: rgb(197, 14, 197); /* Footer background color */
+    color: #fff; /* Footer text color */
+    position: relative; /* Position relative for footer */
+    bottom: 0;
+    width: 100%; /* Full width */
+}
+
+/* Contact Section Styles */
+#contact p {
+    font-size: 1.2em; /* Slightly larger text */
+}
+
+/* Button Styles */
+button {
+    background-color: #e34076; /* Button background color */
+    color: #1c1cb0; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+button:hover {
+    background-color: #5a1e0b; /* Darker button on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    main {
+        padding: 15px; /* Less padding on smaller screens */
+    }
+
+
+    header h1 {
+        font-size: 1.8em; /* Smaller header size */
+    }
+
+    nav ul li {
+        margin: 0 5px; /* Less margin on smaller screens */
+    }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lavanya Mahajan - Full Stack Developer specializing in building dynamic and responsive web applications.">
+    <title>Lavanya Mahajan | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project-style.css">
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Additional styles for the logo */
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo-image {
+            width: 200px; /* Adjust size as needed */
+            height: 200px; /* Maintain aspect ratio */
+            border-radius: 50%; /* Makes the image circular */
+            margin-right: 50px; /* Space between logo and text */
+        }
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #0073b1; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="image/lavanya (1).jpg" alt="Lavanya Logo" class="logo-image"> <!-- Circular Logo -->
+                <h1>Lavanya Mahajan</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Hi, I'm Lavanya Mahajan</h2>
+                <p>Full Stack Developer with a passion for building dynamic and responsive web applications.</p>
+                <a href="#contact" class="cta-button">Contact Me</a>
+                <a href="image/Screenshot 2024-10-27 152329.png" class="cta-button" target="_blank">View CV</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a full-stack developer with a focus on building efficient and scalable web applications. With a strong foundation in front-end and back-end technologies, I create solutions that provide seamless user experiences and robust functionalities. In addition to my technical expertise, I believe in the importance of collaboration and effective communication. I enjoy working closely with clients and team members to understand their needs and ensure that the final product aligns with their vision.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skill-set">
+                <div class="skill">
+                    <img src="image/ecom.jpg" alt="Front-End Development" class="skill-image">
+                    <h3>Front-End Development</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill">
+                    <img src="image/bakehouse.jpg" alt="Back-End Development" class="skill-image">
+                    <h3>Back-End Development</h3>
+                    <p>Node.js, Express, MongoDB</p>
+                </div>
+                <div class="skill">
+                    <img src="image/database.png" alt="Database Management" class="skill-image">
+                    <h3>Database Management</h3>
+                    <p>MySQL, PostgreSQL</p>
+                </div>
+                <div class="skill">
+                    <img src="image/git.jpg" alt="Version Control" class="skill-image">
+                    <h3>Version Control</h3>
+                    <p>Git, GitHub</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <a href="project1.html" target="_blank">
+                        <img src="image/ecom.jpg" alt="E-commerce Logo" class="project-logo">
+                        <h3>E-commerce Website</h3>
+                        <p>Built a fully-functional e-commerce site using MERN stack.</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="project2.html" target="_blank">
+                        <img src="image/bakehouse.jpg" alt="Bakehouse Logo" class="project-logo">
+                        <h3>Bakehouse Website</h3>
+                        <p>Designed and developed a Bakehouse website with interactive features.</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="project3.html" target="_blank">
+                        <img src="image/carrental.jpg" alt="Car Rental Logo" class="project-logo">
+                        <h3>Car Rental Website</h3>
+                        <p>A user-friendly website for booking car rentals.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <button type="submit">Send Message</button>
+
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://github.com/Lavanyamahajan" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/lavanya.mahajann" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/lavanyamahajann" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Lavanya Mahajan. All rights reserved.</p>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script src="script.js"></script>
+</body>
+</html>

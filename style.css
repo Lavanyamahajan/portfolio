@@ -1,0 +1,225 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #007bff;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 20px;
+    background-color: #0077cc;
+    color: black;
+    height: 90vh;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    /* transition: background-color 0.3s; */
+}
+
+.cta-button:hover {
+    background-color: #f0f0f0;
+}
+
+.hero-image img {
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cv-button {
+    background-color: white; /* Set the background color to white */
+    color: #0077cc; /* Set the text color to match the primary theme color */
+    padding: 10px 20px;
+    border: 2px solid #0077cc; /* Add a border to outline the button */
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #0077cc; /* Change background on hover */
+    color: white; /* Invert text color on hover */
+}
+
+
+#about {
+    background-color: white;
+    background-color:
+    ;
+}
+
+#skills {
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 80px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.skill-set {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.skill-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.skill h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.skill p {
+    color: white;
+    font-size: 1rem;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+}
+
+#projects {
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 50px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.project-logo {
+    width: 400px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Space between logo and text */
+    vertical-align: middle; /* Aligns the logo with the text */
+}
+
+.projects-grid {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    max-width: 400px;
+    margin: 30px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    padding: 15px;
+}
+
+.project h3 {
+    margin: 0;
+}
+
+.project p {
+    margin-top: 5px;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
